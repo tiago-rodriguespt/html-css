@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /* 
+            Medidas Absolutas
+            cm, mm, in, px, pt, pc
+
+            Medidas Relativas
+            em, ex, ren, vw, vh, %
+            16px geralmente = 1em
+            */
+            font-size: 1.5em;
+
+            /* lighter normal bold bolder */
+        }
+        h1 {
+            /* shorthand font 
+            - font-style -> font-weight -> font-size -> font-family 
+            
+            font-family: 'work-sans', sans-serif;
+            font weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+            font: italic bolder 3em 'work sans', sans-serif;  
+        }
+        h2 {
+            font: bold 2em 'work sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores quis vero similique quas eius aliquam excepturi distinctio sunt? Unde quam numquam iste repellendus esse magni ex assumenda odio explicabo tempora! Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, dicta, id incidunt voluptatum, sed exercitationem iste quidem soluta eius aliquam possimus autem enim. Libero excepturi voluptatibus reprehenderit, cumque facere odio!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At sit reiciendis ipsam odit saepe minima repudiandae nesciunt veniam molestiae excepturi tenetur maxime ducimus quis in asperiores porro earum, debitis possimus?</p>
+    <h2>Subtitulo do exercicio</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ea, totam incidunt corrupti soluta distinctio placeat beatae nemo rerum temporibus, voluptatum accusamus dicta, eius praesentium fugiat laboriosam nobis possimus tenetur.</p>
+</body>
+</html>
